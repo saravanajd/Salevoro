@@ -1,0 +1,89 @@
+.box1 {
+  display: flex;
+  min-height: 100%;
+  background: radial-gradient(1100px 520px at 85% -10%, color-mix(in srgb, var(--color-accent) 8%, transparent), transparent 60%), var(--color-bg);
+}
+
+.main1 {
+  flex: 1;
+  min-width: 0;
+  padding: clamp(14px,3vw,24px) clamp(12px,3vw,28px) 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.box2 {
+  font-size: clamp(9.9px, calc(9.9px + 1.1 * (100vw - 360px) / 1080), 11px);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.title1 {
+  font-size: clamp(21px, calc(21px + 7 * (100vw - 360px) / 1080), 28px);
+  font-weight: 500;
+  margin: 4px 0 0;
+}
+
+.box3 {
+  font-size: clamp(11.7px, calc(11.7px + 1.3 * (100vw - 360px) / 1080), 13px);
+  color: var(--color-neutral-500);
+  margin-top: 4px;
+}
+
+.section1 {
+  max-width: 560px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.box4 {
+  display: flex;
+  gap: 8px;
+}
+
+.field1 {
+  flex: 1;
+  min-width: 0;
+}
+
+.box5 {
+  font-size: 12px;
+  color: var(--color-accent-300);
+}
+
+.box6 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px 6px 12px;
+  border-radius: 10px;
+  background: var(--color-surface);
+}
+
+.field2 {
+  flex: 1;
+  min-width: 0;
+  height: 34px;
+  border: 0;
+  outline: none;
+  border-radius: 6px;
+  padding: 0 8px;
+  background: transparent;
+  color: var(--color-text);
+  font-size: clamp(12.6px, calc(12.6px + 1.4 * (100vw - 360px) / 1080), 14px);
+}
+.field2:focus {
+  box-shadow: inset 0 0 0 1px var(--color-accent-700);
+}
+
+.label1 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--color-neutral-400);
+  cursor: pointer;
+}

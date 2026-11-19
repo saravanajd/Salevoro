@@ -1,0 +1,252 @@
+.box1 {
+  display: flex;
+  min-height: 100%;
+  background: radial-gradient(1100px 520px at 85% -10%, color-mix(in srgb, var(--color-accent) 8%, transparent), transparent 60%), var(--color-bg);
+}
+
+.main1 {
+  flex: 1;
+  min-width: 0;
+  padding: clamp(14px,3vw,24px) clamp(12px,3vw,28px) 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.header1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.box2 {
+  font-size: clamp(9.9px, calc(9.9px + 1.1 * (100vw - 360px) / 1080), 11px);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.title1 {
+  font-size: clamp(21px, calc(21px + 7 * (100vw - 360px) / 1080), 28px);
+  margin: 4px 0 0;
+}
+
+.box3 {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.text1 {
+  font-size: clamp(11.25px, calc(11.25px + 1.25 * (100vw - 360px) / 1080), 12.5px);
+  color: var(--color-neutral-400);
+}
+
+.box4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.section1 {
+  flex: 1 1 520px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.box5 {
+  padding: 18px;
+  gap: 16px;
+  box-shadow: var(--shadow-sm);
+}
+
+.box6 {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box7 {
+  width: 84px;
+  height: 84px;
+  flex: none;
+  border-radius: 50%;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  background: var(--color-accent-900);
+  color: var(--color-accent-300);
+  font-size: clamp(19.5px, calc(19.5px + 6.5 * (100vw - 360px) / 1080), 26px);
+  box-shadow: 0 0 0 1px var(--color-accent-700), 0 0 30px -12px var(--color-accent);
+}
+
+.box8 {
+  flex: 1;
+  min-width: 200px;
+}
+
+.box9 {
+  font-size: clamp(15px, calc(15px + 5 * (100vw - 360px) / 1080), 20px);
+}
+
+.box10 {
+  display: flex;
+  gap: 6px;
+  margin-top: 6px;
+  flex-wrap: wrap;
+}
+
+.text2 {
+  white-space: nowrap;
+}
+
+.box11 {
+  display: flex;
+  gap: 8px;
+}
+
+.label1 {
+  cursor: pointer;
+}
+
+.field1 {
+  display: none;
+}
+
+.box12 {
+  padding: 18px;
+  gap: 14px;
+  box-shadow: var(--shadow-sm);
+}
+
+.box13 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 12px;
+}
+
+.field2 {
+  opacity: .6;
+}
+
+.box14 {
+  font-size: clamp(11.25px, calc(11.25px + 1.25 * (100vw - 360px) / 1080), 12.5px);
+  color: var(--color-accent-300);
+}
+
+.box15 {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.button1 {
+  border: 0;
+  background: transparent;
+}
+
+.box16 {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.button2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  color: var(--color-neutral-400);
+  font-size: clamp(9.9px, calc(9.9px + 1.1 * (100vw - 360px) / 1080), 11px);
+  padding: 0;
+}
+
+.text3 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.label2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: clamp(12.15px, calc(12.15px + 1.35 * (100vw - 360px) / 1080), 13.5px);
+  cursor: pointer;
+}
+
+.box17 {
+  font-size: clamp(10.8px, calc(10.8px + 1.2 * (100vw - 360px) / 1080), 12px);
+  color: var(--color-neutral-500);
+}
+
+.aside1 {
+  flex: 1 1 320px;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.box18 {
+  padding: 18px;
+  gap: 12px;
+  box-shadow: var(--shadow-sm);
+}
+
+.button3 {
+  align-self: flex-start;
+}
+
+.box19 {
+  height: 1px;
+  background: var(--color-neutral-800);
+  margin: 4px 0;
+}
+
+.field3 {
+  width: 120px;
+  letter-spacing: .3em;
+}
+
+.box20 {
+  padding: 18px;
+  gap: 10px;
+  box-shadow: var(--shadow-sm);
+}
+
+.box21 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: clamp(11.7px, calc(11.7px + 1.3 * (100vw - 360px) / 1080), 13px);
+  padding: 4px 0;
+}
+
+.icon1 {
+  font-size: clamp(15.48px, calc(15.48px + 2.52 * (100vw - 360px) / 1080), 18px);
+  color: var(--color-neutral-400);
+}
+
+.box22 {
+  flex: 1;
+}
+
+.box23 {
+  font-size: clamp(10.35px, calc(10.35px + 1.15 * (100vw - 360px) / 1080), 11.5px);
+  color: var(--color-neutral-500);
+}
+
+.button4 {
+  margin-top: 6px;
+}
