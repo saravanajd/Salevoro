@@ -4,6 +4,8 @@ Vite + React 18 + TypeScript, CSS Modules, React Router.
 
 ## Run
 
+Requires Node.js 20.19+ on the 20.x release line, or Node.js 22.12+.
+
 ```bash
 npm install
 npm run dev        # http://localhost:5173
